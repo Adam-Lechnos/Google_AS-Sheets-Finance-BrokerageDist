@@ -1,4 +1,4 @@
-function errorCheckMargin1() {
+function errorCheckSummary() {
   // Fetch error status
   var errorRange = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Summary").getRange("D17");
   var errorRangeADI = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Annual Dividend Income (margin)").getRange("R2").getValue();
